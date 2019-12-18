@@ -37,6 +37,6 @@ We wont be using the USB output from the Tello to power our Raspberry Pi Zero fo
  - Check whether the inout and output are working from the above setup.
 ### Mounting Raspberry Pi Zero
  - Assemble the 3D printed Raspberry Pi Zero Tello mount.
- - Mount the Raspberry Pi Zero on the 3D printed assembled mount.
+ - Mount the Raspberry Pi Zero on the 3D printed assembled mount. You can a combination of screw which fits into the mount and rubber bands (check the images).
  - Also connect the LiPo batter module and the Micro USB to USB Type A female adapter + Wifi dongle to the Raspberry Pi Zero.
-<table><tr><td><img src="images/assembled_zero_mount.jpeg" width="300" height="137"/><td/><td><img src="images/assembled_zero_mount_2.jpeg" width="300" height="137"/><td/><tr/></table>
+<table style="height: 300px"><tr><td><img src="images/assembled_zero_mount.jpeg" width="300" height="137"/><td/><td><img src="images/assembled_zero_mount_2.jpeg" width="300" height="137"/><td/><tr/></table>
