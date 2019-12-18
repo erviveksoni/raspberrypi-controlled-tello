@@ -34,3 +34,9 @@ We wont be using the USB output from the Tello to power our Raspberry Pi Zero fo
  - Remove the USB Type A shell from the module carefully (You may need to use a plair). Ensure the +ve and -ve output points are visible on the chip.
  - Solder the micro usb wires -> black to the -ve and red to +ve output points.
  - Follow this [youtube link](https://www.youtube.com/watch?v=KB8S83aY35w) to solder the LiPo connector to the charging module. 
+ - Check whether the inout and output are working from the above setup.
+### Mounting Raspberry Pi Zero
+ - Assemble the 3D printed Raspberry Pi Zero Tello mount.
+ - Mount the Raspberry Pi Zero on the 3D printed assembled mount.
+ - Also connect the LiPo batter module and the Micro USB to USB Type A female adapter + Wifi dongle to the Raspberry Pi Zero.
+<br/>![mount](/images/assembled_zero_mount.jpeg)
