@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fd72ebc2-9a01-476f-8b25-7f75f91e2a06" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1UvhQwC2YYQAEmPrr34ZU03p8wW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576208766821" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="raspberrypi-controlled-tello" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gamepad" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="raspberrypi-controlled-tello" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gamepad.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.gamepad" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../distributed/distributedarchitectures" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../distributed/distributedarchitectures/project" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd72ebc2-9a01-476f-8b25-7f75f91e2a06" name="Default Changelist" comment="" />
+      <created>1576166591520</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576166591520</updated>
+      <workItem from="1576166596513" duration="894000" />
+      <workItem from="1576167517602" duration="2380000" />
+      <workItem from="1576242968735" duration="3797000" />
+      <workItem from="1576247075383" duration="7730000" />
+      <workItem from="1576255077445" duration="18919000" />
+      <workItem from="1576521373041" duration="60000" />
+      <workItem from="1576572454387" duration="8327000" />
+      <workItem from="1576674473583" duration="4069000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="321" y="94" key="#Deployment" timestamp="1576255198045">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state x="321" y="94" key="#Deployment/0.23.1440.811@0.23.1440.811" timestamp="1576255198045" />
+    <state x="321" y="94" key="#Deployment/0.23.1440.812@0.23.1440.812" timestamp="1576247714131" />
+    <state x="321" y="94" key="#Options" timestamp="1576247458201">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state x="321" y="94" key="#Options/0.23.1440.812@0.23.1440.812" timestamp="1576247458201" />
+    <state x="459" y="182" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576252239851">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state x="459" y="182" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.812@0.23.1440.812" timestamp="1576252239851" />
+    <state x="276" y="78" key="SettingsEditor" timestamp="1576674605984">
+      <screen x="0" y="23" width="1792" height="1012" />
+    </state>
+    <state x="222" y="67" key="SettingsEditor/0.23.1440.812@0.23.1440.812" timestamp="1576247554611" />
+    <state x="276" y="78" key="SettingsEditor/0.23.1792.1012@0.23.1792.1012" timestamp="1576674605984" />
+    <state x="495" y="321" key="com.intellij.ide.util.TipDialog" timestamp="1576572636141">
+      <screen x="0" y="23" width="1792" height="1015" />
+    </state>
+    <state x="398" y="261" key="com.intellij.ide.util.TipDialog/0.23.1440.811@0.23.1440.811" timestamp="1576255163928" />
+    <state x="495" y="321" key="com.intellij.ide.util.TipDialog/0.23.1792.1015@0.23.1792.1015" timestamp="1576572636141" />
+    <state x="627" y="166" key="ftp.server.browser" timestamp="1576247626501">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state x="627" y="166" key="ftp.server.browser/0.23.1440.812@0.23.1440.812" timestamp="1576247626501" />
+    <state x="767" y="430" key="publish.login" timestamp="1576595174620">
+      <screen x="0" y="23" width="1792" height="1015" />
+    </state>
+    <state x="767" y="430" key="publish.login/0.23.1792.1015@0.23.1792.1015" timestamp="1576595174620" />
+    <state x="767" y="431" key="publish.login/0.23.1792.1017@0.23.1792.1017" timestamp="1576591027172" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../hellotello/pythontello/src/joystick_and_video.py</url>
+          <line>146</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
