@@ -5,7 +5,7 @@ I took the same code base and extended it to control the Tello using a easy to u
 
 While working on this application, I thought it would be a really cool idea to mount the Raspberry Pi Zero on top of the Tello itself rather then using the zero as a base station and keeping it on the ground. 
 <br/>
-<img src="/images/drone_front.jpeg" alt="Tello with Raspberry Pi Zero" width="400" height="182" border="0" />
+<img src="/images/drone_front.jpeg" alt="Tello with Raspberry Pi Zero" width="600" height="274" border="0" />
 <br/>
 Offcourse this adds additional weight to the drone (and reduce flying time) but for the application I am looking it was OK! Also, this gives me freedom of not carrying my laptop whenever I want to fly it using Xbox One S controller. Additionally this lays foundation for a few project ideas I have.
 
@@ -23,8 +23,14 @@ To make this project you will need both hardware and software skills some of whi
 - 3.7V 1200mah LiPo battery (Try getting the size: 30mm x 63mm x 4.75mm so it fits nicely over the drone)
 - 3D printed [Raspberry Pi Zero Tello mount](https://www.thingiverse.com/thing:4022999) and screws
   <br/>The file RPi_zero_mount.scad zero_mount on the link above does not have a provision to hold Raspberry Pi camera. I extended this design and added a [bracket to hold camera](/files/RPi_zero_mount_with_camera.scad).
-- Male micro usb shell
+- Male micro usb cable head. You can use any old micro usb cable and cut micro usb head along with a small length of wire.
 <br/>![shell](/images/microusbshell.jpeg)
 - Wires
 - Solderign gun
 
+## Hardware
+#### Creating the LiPo Battery Module
+We wont be using the USB output from the Tello to power our Raspberry Pi Zero for obvious reason :-). Lets create our own power source to power the Raspberry Pi Zero as well as a permanent setup to charge it.
+ - Remove the USB Type A shell from the module carefully (You may need to use a plair). Ensure the +ve and -ve output points are visible on the chip.
+ - Solder the micro usb wires -> black to the -ve and red to +ve output points.
+ - Follow this [youtube link](https://www.youtube.com/watch?v=KB8S83aY35w) to solder the LiPo connector to the charging module. 
