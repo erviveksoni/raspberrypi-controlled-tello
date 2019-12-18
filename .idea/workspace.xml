@@ -44,13 +44,17 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576208766821" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/files" />
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -143,7 +147,7 @@
       <workItem from="1576255077445" duration="18919000" />
       <workItem from="1576521373041" duration="60000" />
       <workItem from="1576572454387" duration="8327000" />
-      <workItem from="1576674473583" duration="4069000" />
+      <workItem from="1576674473583" duration="7429000" />
     </task>
     <servers />
   </component>
@@ -181,6 +185,10 @@
       <screen x="0" y="23" width="1440" height="812" />
     </state>
     <state x="627" y="166" key="ftp.server.browser/0.23.1440.812@0.23.1440.812" timestamp="1576247626501" />
+    <state x="273" y="129" key="new project wizard" timestamp="1576683076841">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="273" y="129" key="new project wizard/0.23.1792.1017@0.23.1792.1017" timestamp="1576683076841" />
     <state x="767" y="430" key="publish.login" timestamp="1576595174620">
       <screen x="0" y="23" width="1792" height="1015" />
     </state>
