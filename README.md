@@ -5,8 +5,10 @@ I took the same code base and extended it to control the Tello using a easy to u
 
 While working on this application, I thought it would be a really cool idea to mount the Raspberry Pi Zero on top of the Tello itself rather then using the zero as a base station and keeping it on the ground. 
 <br/>
-<img src="/images/drone_front.jpeg" alt="Tello with Raspberry Pi Zero" width="600" height="274" border="0" />
-<br/>
+<a href="https://www.youtube.com/watch?v=rT4CF4Krcc8" target="_blank">
+<img src="/images/drone_front.jpeg" alt="Tello with Raspberry Pi Zero" width="600" height="274" border="10" />
+</a>
+
 Offcourse this adds additional weight to the drone (and reduce flying time) but for the application I am looking it was OK! Also, this gives me freedom of not carrying my laptop whenever I want to fly it using Xbox One S controller. Additionally this lays foundation for a few project ideas I have.
 
 To make this project you will need both hardware and software skills some of which I also learned during the process but that's the point... you gotta start somewhere!
