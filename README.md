@@ -31,7 +31,7 @@ To make this project you will need both hardware and software skills some of whi
 
 ## Hardware
 
-#### Creating the LiPo Battery Module
+### Creating the LiPo Battery Module
 We wont be using the USB output from the Tello to power our Raspberry Pi Zero for obvious reason :-). Lets create our own power source to power the Raspberry Pi Zero as well as a permanent setup to charge it.
  - Remove the USB Type A shell from the module carefully (You may need to use a plair). Ensure the +ve and -ve output points are visible on the chip.
  - Solder the micro usb wires -> black to the -ve and red to +ve output points.
@@ -49,7 +49,7 @@ We wont be using the USB output from the Tello to power our Raspberry Pi Zero fo
 <td><img src="images/assembled_zero_mount_2.jpeg" width="300" height="137"/><td/>
 <tr/></table>
 
-## Mounting the 3D Mount on Tello
+### Mounting the 3D Mount on Tello
  - Detach the canopy from Tello
  - Snap the 3D Printed case on top of the Tello 
 
