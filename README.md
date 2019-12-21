@@ -9,11 +9,16 @@ Offcourse this adds additional weight to the drone (and reduce flying time) but 
 Here is a [short video](https://www.youtube.com/watch?v=rT4CF4Krcc8) of the drone in action:
 <br/>
 <img src="/images/drone_front.jpeg" alt="Tello with Raspberry Pi Zero" width="600" height="274" border="10" />
-<
+<br/>
 
 But nothing stops you from flying Tello without the Raspberry mounted atop. The steps mentioned here will still be valid. Just place the Raspberry Pi on the ground.
 
 To make this project you will need both hardware and software skills some of which I also learned during the process but that's the point... you gotta start somewhere!
+
+Few more images of the setup.
+<br/>
+<img src="/images/Tello.jpg" alt="Tello with Raspberry Pi Zero" width="400" height="364" border="10" />
+
 
 ## Prerequisites
 - Raspberry Pi Zero W
