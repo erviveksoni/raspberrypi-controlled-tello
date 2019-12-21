@@ -1,4 +1,4 @@
-# Controlled DJI Tello  using Raspberry Pi Zero and Xbox One S Controller
+# Control DJI Tello using Raspberry Pi Zero and Xbox One S Controller
 
 I recently bought DJI Tello and was amazed on how much you can learn and do with this little drone since it offers the ability to program. To start my learning, I decided to take inspiration from one of my pet projects on [controlling a RaspberryPi rover with Xbox One S Bluetooth Controller](https://github.com/erviveksoni/xbox-raspberrypi-rover).
 I took the same code base and extended it to control the Tello using a easy to use and well documented python library [TelloPy](https://github.com/hanyazou/TelloPy).

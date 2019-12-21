@@ -76,6 +76,21 @@ def force_stop_drone(drone_flight_data):
         return True
     return False
 
+
+def connect_gamepad():  # asyncronus read-out of events
+    xbox_path = None
+    remote_control = None
+    devices = [InputDevice(path) for path in list_devices()]
+    print('Connecting to xbox controller...')
+    for device in devices:
+        if str.lower(device.name) == "xbox wireless controller":
+            xbox_path = str(device.path)
+            remote_control = gamepad.gamepad(file=xbox_path)
+            remote_control.rumble_effect = 2
+            return remote_control
+    return None
+
+
 def is_gamepad_connected():  # asyncronus read-out of events
     xbox_path = None
     devices = [InputDevice(path) for path in list_devices()]
@@ -167,6 +182,7 @@ async def read_gamepad_inputs():
             remote_control.bump_left = False
 
         if remote_control.button_a:
+            print("PALM LAND")
             drone.palm_land()
             remote_control.button_a = False
 
