@@ -103,7 +103,28 @@ iface default inet dhcp
 - Power on Raspberry Pi and SSH into it
 - Type `ifconfig` to list the Raspberry Pi network interfaces
 - You should see 2 interfaces `wlan0` and `wlan1` connected to their network respectively
-- In case you don't see an IP address acquired for `wlan1`, then reset the `wlan1` interface using the command
+- __In case you don't see an IP address acquired for `wlan1`__, then reset the `wlan1` interface using the command
  `sudo dhclient -v wlan1`
 
+### Connecting Xbox One S Controller to Raspberry Pi Zero
+As of today, I could only find the [xpadneo driver](https://github.com/atar-axis/xpadneo/tree/master/docs) making the Xbox One S Bluetooth controller work with Raspberry Pi. Follow the instructions on [this git repo](https://github.com/atar-axis/xpadneo/tree/master/docs) to setup the Bluetooth communication with Raspberry Pi (Raspbian).
 
+### Installing Required Packages
+SSH into Raspberry Pi and follow the steps below.
+#### Installing Python
+
+- `sudo apt-get install python3-dev`
+- `sudo apt install python3-pip`
+
+#### Installing Other Packages
+- `pip3 install evdev`
+- `pip3 install tellopy`
+
+#### Setup Application Code
+- Download this Repository  
+  `git clone https://github.com/erviveksoni/raspberrypi-controlled-tello.git`
+
+## Run Application
+- Ensure you are connected to Tello and the Xbox Controller 
+- `cd raspberrypi-controlled-tello`
+- Run `Python3 flytello.py`

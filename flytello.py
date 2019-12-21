@@ -1,15 +1,9 @@
 #!/usr/bin/env python3
 
 import asyncio
-import math
-import os
 import signal
-import subprocess
 import sys
-import threading
-import time
 import tellopy
-import traceback
 
 from evdev import InputDevice, ecodes, ff, list_devices
 
