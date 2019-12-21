@@ -1,15 +1,17 @@
 # Control DJI Tello using Raspberry Pi Zero and Xbox One S Controller
 
-I recently bought DJI Tello and was amazed on how much you can learn and do with this little drone since it offers the ability to program. To start my learning, I decided to take inspiration from one of my pet projects on [controlling a RaspberryPi rover with Xbox One S Bluetooth Controller](https://github.com/erviveksoni/xbox-raspberrypi-rover).
-I took the same code base and extended it to control the Tello using a easy to use and well documented python library [TelloPy](https://github.com/hanyazou/TelloPy).
+I recently bought DJI Tello and was amazed on how much you can learn and do with this little drone since it offers the ability to program. To start my learning, I decided to take inspiration from one of my pet projects on [controlling a RaspberryPi rover with Xbox One S Bluetooth Controller](https://github.com/erviveksoni/xbox-raspberrypi-rover) and extended it to control the Tello using a easy to use python library [TelloPy](https://github.com/hanyazou/TelloPy).
 
 While working on this application, I thought it would be a really cool idea to mount the Raspberry Pi Zero on top of the Tello itself rather then using the zero as a base station and keeping it on the ground. 
+
+Offcourse this adds additional weight to the drone (and reduce flying time) but for the application I am looking it was OK! Also, this gives me freedom of not carrying my laptop whenever I want to fly it using Xbox One S controller. Additionally this lays foundation for a few project ideas I have.
 
 Here is a [short video](https://www.youtube.com/watch?v=rT4CF4Krcc8) of the drone in action:
 <br/>
 <img src="/images/drone_front.jpeg" alt="Tello with Raspberry Pi Zero" width="600" height="274" border="10" />
 <
-Offcourse this adds additional weight to the drone (and reduce flying time) but for the application I am looking it was OK! Also, this gives me freedom of not carrying my laptop whenever I want to fly it using Xbox One S controller. Additionally this lays foundation for a few project ideas I have.
+
+But nothing stops you from flying Tello without the Raspberry mounted atop. The steps mentioned here will still be valid. Just place the Raspberry Pi on the ground.
 
 To make this project you will need both hardware and software skills some of which I also learned during the process but that's the point... you gotta start somewhere!
 
@@ -128,3 +130,4 @@ SSH into Raspberry Pi and follow the steps below.
 - Ensure you are connected to Tello and the Xbox Controller 
 - `cd raspberrypi-controlled-tello`
 - Run `Python3 flytello.py`
+- Control the Tello using the Joysticks
