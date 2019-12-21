@@ -48,7 +48,7 @@ We wont be using the USB output from the Tello to power our Raspberry Pi Zero fo
 <td><img src="images/assembled_zero_mount.jpeg" width="300" height="137"/><td/>
 <td><img src="images/assembled_zero_mount_2.jpeg" width="300" height="137"/><td/>
 <tr/></table>
-
+<br/>
 ### Mounting the 3D Mount on Tello
  - Detach the canopy from Tello
  - Snap the 3D Printed case on top of the Tello 
