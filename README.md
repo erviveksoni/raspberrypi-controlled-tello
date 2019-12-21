@@ -14,7 +14,7 @@ To make this project you will need both hardware and software skills some of whi
 ## Prerequisites
 - Raspberry Pi Zero W
 - [Xbox One controller](https://www.microsoft.com/en-us/p/xbox-wireless-controller/8t2d538wc7mn?cid=msft_web_collection&activetab=pivot%3aoverviewtab) Generation 2 or later which has bluetooth support
-<br/><img src="images/controller.png" width="300" height="300"/>
+<br/><img src="images/controller.png" width="371" height="262"/>
 - [DJI Tello](https://store.dji.com/product/tello)
 - [WiFi Dongle](https://www.raspberrypi.org/products/raspberry-pi-usb-wifi-dongle/)
 - Micro USB to USB Type A female adapter [something like this](https://www.amazon.com/CableCreation-Adapter-Compatible-Samsung-Function/dp/B01LXBS8EJ/)
