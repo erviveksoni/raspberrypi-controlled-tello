@@ -17,7 +17,7 @@ To make this project you will need both hardware and software skills some of whi
 - Raspberry Pi Zero W
 - [Xbox One controller](https://www.microsoft.com/en-us/p/xbox-wireless-controller/8t2d538wc7mn?cid=msft_web_collection&activetab=pivot%3aoverviewtab) Generation 2 or later which has bluetooth support
 <br/><img src="images/controller.png" width="371" height="262"/>
-- [DJI Tello](https://store.dji.com/product/tello)
+- [DJI Tello](https://store.dji.com/product/tello). Ensure your Tello is setup and you are able to fly with your phone app.
 - [WiFi Dongle](https://www.raspberrypi.org/products/raspberry-pi-usb-wifi-dongle/)
 - Micro USB to USB Type A female adapter [something like this](https://www.amazon.com/CableCreation-Adapter-Compatible-Samsung-Function/dp/B01LXBS8EJ/)
 - 5V Step-Up Power Module Lithium Battery Charging Protection Board
@@ -53,4 +53,54 @@ We wont be using the USB output from the Tello to power our Raspberry Pi Zero fo
 ### Mounting the 3D Mount on Tello
  - Detach the canopy from Tello
  - Snap the 3D Printed case on top of the Tello 
+
+
+## Software
+
+### Setting up Raspberry Pi Operating System
+We will setup Raspberry Pi in headless mode to get the optimal usage of RAM and CPU. There are many good posts on how to setup Raspbian Buster Lite on the Raspberry Pi Zero in [Headless Mode](https://desertbot.io/blog/setup-pi-zero-w-headless-wifi/) 
+
+At this point in time, we should be able to SSH into out Pi using the Wifi onboard. Also the Pi will be most likey have access to the internet (dependeing on your WIFI network settings).
+
+### (Optional) Configuring Raspberry Pi Zero with Dual WIFI Interfaces
+> __Note__: This step is completely optional for this project. You can configure Raspberry Pi Zero to connect to Tello's WIFI network directly.
+>The steps for doing this will be similar to the once you followed during setting up the Raspberry Pi.
+>Though needless to say, your laptop should be connected to Tello's network to be able to run this application.
+
+When you turn on Tello, it configures itself as an AP allowing the clients to connect and control to it. Once a client is connected to Tello, it looses internet connectivity. 
+I wanted to avoid this blocker for a few project ideas I had in mind hence I configured the Raspberry Pi with dual WIFI interfaces. 
+
+The Raspberry Pi Zero's onboard WIFI connects to my home network and the WIFI Adapter connects to Tello's WIFI.
+
+- Ensure the WIFI dongle is connected to the Raspberry Pi Zero micro usb port
+- Power on Raspberry Pi
+- SSH into Raspberry Pi Zero
+- Type `lsusb`. Ensure you see the WIFI USB adapter listed on the console output
+- Type `sudo nano /etc/network/interfaces` to edit the network interfaces file
+- Add the text below towards the end of the file. 
+Replace the `TELLO_NETWORK_NAME` with the WIFI AP name of Tello followed by its password.
+
+```c
+auto lo
+
+iface lo inet loopback
+iface eth0 inet dhcp
+
+allow-hotplug wlan0
+iface wlan0 inet manual
+wpa-roam /etc/wpa_supplicant/wpa_supplicant.conf
+
+allow-hotplug wlan1
+iface wlan1 inet dhcp
+wpa-ssid "<TELLO_NETWORK_NAME>"
+wpa-psk "<PASSWORD>"
+
+iface default inet dhcp
+```
+- Save your changes to the interfaces file
+- Shutdown Raspberry Pi Zero `sudo shutdown now`
+- Turn on Tello
+- Power on Raspberry Pi and SSH into it
+- Type `ifconfig` to list the Raspberry Pi network interfaces
+- You should see 2 interfaces `wlan0` and `wlan1` connected to their network respectively
 
