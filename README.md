@@ -7,6 +7,7 @@ While working on this application, I thought it would be a really cool idea to m
 Offcourse this adds additional weight to the drone (and reduce flying time) but for the application I am looking it was OK! Also, this gives me freedom of not carrying my laptop whenever I want to fly it using Xbox One S controller. Additionally this lays foundation for a few project ideas I have.
 
 Here is a [short video](https://www.youtube.com/watch?v=rT4CF4Krcc8) of the drone in action:
+
 <img src="/images/drone_front.jpeg" alt="Tello with Raspberry Pi Zero" width="600" height="274" border="10" />
 
 But nothing stops you from flying Tello without the Raspberry mounted atop. The steps mentioned here will still be valid. Just place the Raspberry Pi on the ground.
