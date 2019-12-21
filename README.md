@@ -14,6 +14,7 @@ But nothing stops you from flying Tello without the Raspberry mounted atop. The 
 To make this project you will need both hardware and software skills some of which I also learned during the process but that's the point... you gotta start somewhere!
 
 Few more images of the setup.
+
 <img src="/images/Tello.jpg" alt="Tello with Raspberry Pi Zero" width="400" height="364" border="10" />
 
 
