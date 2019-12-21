@@ -62,8 +62,8 @@ We will setup Raspberry Pi in headless mode to get the optimal usage of RAM and 
 
 At this point in time, we should be able to SSH into out Pi using the Wifi onboard. Also the Pi will be most likey have access to the internet (dependeing on your WIFI network settings).
 
-### (Optional) Configuring Raspberry Pi Zero with Dual WIFI Interfaces
-> __Note__: This step is completely optional for this project. You can configure Raspberry Pi Zero to connect to Tello's WIFI network directly.
+### Connecting Raspberry Pi Zero to Tello
+> __Note__: The steps in the section below are completely optional for this project. You can directly configure Raspberry Pi Zero to connect to Tello's WIFI network.
 >The steps for doing this will be similar to the once you followed during setting up the Raspberry Pi.
 >Though needless to say, your laptop should be connected to Tello's network to be able to run this application.
 
@@ -103,4 +103,7 @@ iface default inet dhcp
 - Power on Raspberry Pi and SSH into it
 - Type `ifconfig` to list the Raspberry Pi network interfaces
 - You should see 2 interfaces `wlan0` and `wlan1` connected to their network respectively
+- In case you don't see an IP address acquired for `wlan1`, then reset the `wlan1` interface using the command
+ `sudo dhclient -v wlan1`
+
 
