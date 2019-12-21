@@ -14,7 +14,7 @@ To make this project you will need both hardware and software skills some of whi
 ## Prerequisites
 - Raspberry Pi Zero W
 - [Xbox One controller](https://www.microsoft.com/en-us/p/xbox-wireless-controller/8t2d538wc7mn?cid=msft_web_collection&activetab=pivot%3aoverviewtab) Generation 2 or later which has bluetooth support
-<br/>![Controller](/images/controller.jpg)
+<br/><img src="images/controller.png" width="300" height="300"/>
 - [DJI Tello](https://store.dji.com/product/tello)
 - [WiFi Dongle](https://www.raspberrypi.org/products/raspberry-pi-usb-wifi-dongle/)
 - Micro USB to USB Type A female adapter [something like this](https://www.amazon.com/CableCreation-Adapter-Compatible-Samsung-Function/dp/B01LXBS8EJ/)
@@ -27,6 +27,7 @@ To make this project you will need both hardware and software skills some of whi
 <br/>![shell](/images/microusbshell.jpeg)
 - Wires
 - Solderign gun
+- Optional for this project: Raspberry Pi Camera V2
 
 ## Hardware
 #### Creating the LiPo Battery Module
@@ -35,8 +36,18 @@ We wont be using the USB output from the Tello to power our Raspberry Pi Zero fo
  - Solder the micro usb wires -> black to the -ve and red to +ve output points.
  - Follow this [youtube link](https://www.youtube.com/watch?v=KB8S83aY35w) to solder the LiPo connector to the charging module. 
  - Check whether the inout and output are working from the above setup.
-### Mounting Raspberry Pi Zero
+### Mounting Raspberry Pi Zero on Tello Mount
  - Assemble the 3D printed Raspberry Pi Zero Tello mount.
+ - Optional: Connect the Raspberry Pi Zero Camera module to Raspberry Pi Zero
  - Mount the Raspberry Pi Zero on the 3D printed assembled mount. You can a combination of screw which fits into the mount and rubber bands (check the images).
  - Also connect the LiPo batter module and the Micro USB to USB Type A female adapter + Wifi dongle to the Raspberry Pi Zero.
-<table height="200px"><tr><td><img src="images/assembled_zero_mount.jpeg" width="300" height="137"/><td/><td><img src="images/assembled_zero_mount_2.jpeg" width="300" height="137"/><td/><tr/></table>
+<table height="200px">
+<tr>
+<td><img src="images/assembled_zero_mount.jpeg" width="300" height="137"/><td/>
+<td><img src="images/assembled_zero_mount_2.jpeg" width="300" height="137"/><td/>
+<tr/></table>
+
+## Mounting the 3D Mount on Tello
+ - Detach the canopy from Tello
+ - Snap the 3D Printed case on top of the Tello 
+
