@@ -43,12 +43,11 @@ We wont be using the USB output from the Tello to power our Raspberry Pi Zero fo
  - Optional: Connect the Raspberry Pi Zero Camera module to Raspberry Pi Zero
  - Mount the Raspberry Pi Zero on the 3D printed assembled mount. You can a combination of screw which fits into the mount and rubber bands (check the images).
  - Also connect the LiPo batter module and the Micro USB to USB Type A female adapter + Wifi dongle to the Raspberry Pi Zero.
-<table height="200px">
-<tr>
-<td><img src="images/assembled_zero_mount.jpeg" width="300" height="137"/><td/>
-<td><img src="images/assembled_zero_mount_2.jpeg" width="300" height="137"/><td/>
-<tr/></table>
-<br/>
+<div height="200px">
+<span><img src="images/assembled_zero_mount.jpeg" width="300" height="137"/></span>
+<span><img src="images/assembled_zero_mount_2.jpeg" width="300" height="137"/></span>
+</div>
+
 ### Mounting the 3D Mount on Tello
  - Detach the canopy from Tello
  - Snap the 3D Printed case on top of the Tello 
